@@ -1,8 +1,11 @@
 var request = require("request");
-
-
-var check= function (name) {
-  return function (cb) {
+var init = function () {
+  return {
+    check: ch()
+  };
+};
+var ch= function () {
+return function (name,cb) {
   if (typeof cb === 'function') {
       request.get({
         url : 'https://api.ote-godaddy.com/v1/domains/available?domain='+name+'&checkType=FAST&forTransfer=false&',
@@ -51,11 +54,10 @@ var check= function (name) {
           cb(response);
         }
       });
-    }
+    }}
   }
-}
 
 
 
-exports.check= check;
+exports.init= init;
 

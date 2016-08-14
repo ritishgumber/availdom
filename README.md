@@ -13,9 +13,17 @@ npm install availdom
 ## Usage
 Require library
 ```javascript
-var avail= require('availdom');
+var avail= require('availdom').init();
 ```
 Function
 ```javascript
-var checkDomainName = avail.check('npmjs.org');
+var checkDomainName = avail.check('npmjs.org',function(err,body){
+if(!err)
+console.log(body);
+else
+console.log(err);
+});
+```
+Response
+```javascript
 ```

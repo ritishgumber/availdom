@@ -1,6 +1,6 @@
 {
   "name": "availdom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "node.js wraper to check availiabilty of domain name.",
   "main": "index.js",
   "dependencies": {
