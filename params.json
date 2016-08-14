@@ -1,0 +1,6 @@
+{
+  "name": "Availdom",
+  "tagline": "node.js wrapper for checking availablity of domain name",
+  "body": "### Welcome to availdom\r\nThis is a node.js Wrapper for checking the availability of a domain name by just installing this package using npm and make a call to the desired function() . \r\n\r\n\r\n### Authors and Contributors\r\nRitish Gumber (@ritishgumber) , 2016\r\n___\r\n### Installation \r\n[npm package](https://www.npmjs.com/package/availdom)\r\n___\r\n### Support or Contact\r\nRaise [Issues](https://github.com/ritishgumber/availdom/issues) here.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
